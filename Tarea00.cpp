@@ -22,7 +22,7 @@ std::stringstream ss;
      ss << tmP->tm_year+1900 << "-" << tmP->tm_mon+1 << "-" << tmP->tm_mday <<" "<< tmP->tm_hour << ":" << tmP->tm_min << ":" << tmP->tm_sec;
      std::string s = ss.str();
 return s;
-}
+} 
 
 string genumal(int max,int gen){
    vector<int> num;
